@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+        <!--Construção do Formulário da página 2-->
+
+        <h1>Cadastro DEV's</h1>
+        <h3>Complete com as suas informações:</h3>
+        <form action="destino.html" method="post">
+            
+                <label for="Nome">Nome</label>
+                <input type="nome" name="nome" id="nome" size="30" maxlength="100" required placeholder="Insira seu nome.">
+            
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" size="30" maxlength="100" required placeholder="Insira seu email.">
+            
+        <p><h3>De qual lado da aplicação você desenvolve ?</h3></p>
+
+    <fieldset>
+        <legend>De qual lado da aplicação você desenvolve ?</legend>
+
+        <label for="radio-FrontEnd">
+        <input type="radio" name="contato" valuer="FrontEnd" id="radio-FrontEnd">FrontEnd
+        </label>
+
+        <label for="radio-BackEnd">
+            <input type="radio" name="contato" valuer="BackEnd" id="radio-BackEnd">BackEnd
+        </label>
+
+        <label for="radio-FullStack">
+            <input type="radio" name="contato" valuer="FullStack" id="radio-FullStack">FullStack
+            </label>
+    
+    </fieldset>
+
+        <h3>Selecionaridade</h3>
+
+        <input type="text" list="areas" name="nome_das_areas" id="nome_das_areas" placeholder="Selecione" size="30">
+        
+        <datalist id="areas">
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="FullStack">FullStack</option>
+        </datalist>
+
+        <fieldset>
+        <h3><legend>Selecione as tecnologias que você utiliza no FrontEnd:</h3></legend>
+    
+            <label for="ling01">
+            <input type="checkbox" name="linguagens" id="ling01" value="HTML5">HTML5
+            </label>
+            
+            <label for="ling02">
+                <input type="checkbox" name="linguagens" id="ling02" value="CSS3">CSS3
+            </label>
+
+            <label for="ling03">
+                <input type="checkbox" name="linguagens" id="ling03" value="Angular.js">Angular.js
+            </label>
+
+            <label for="ling04">
+                <input type="checkbox" name="linguagens" id="ling04" value="Vue.js">Vue.js
+            </label>
+
+            <label for="ling05">
+                <input type="checkbox" name="linguagens" id="ling05" value="React.js">React.js
+            </label>
+
+        <h3><legend>Selecione as tecnologias que você utiliza no BackEnd:</legend></h3>
+
+            <label for="ling01">
+                <input type="checkbox" name="linguagens" id="ling01" value="Python">Python
+            </label>
+            
+            <label for="ling02">
+                <input type="checkbox" name="linguagens" id="ling02" value="C#">C#
+            </label>
+
+            <label for="ling03">
+                <input type="checkbox" name="linguagens" id="ling03" value="JavaScript">JavaScript
+            </label>
+
+            <label for="ling04">
+                <input type="checkbox" name="linguagens" id="ling04" value="PHP">PHP
+            </label>
+
+            <label for="ling06">
+                <input type="checkbox" name="linguagens" id="ling06" value="Java">Java
+            </label>
+
+        <h3><legend>Selecione o banco de dados que você utiliza:</legend></h3>
+    
+        <label for="ling01">
+            <input type="checkbox" name="linguagens" id="ling01" value="MySQL">MySQL
+        </label>
+
+        <label for="ling02">
+            <input type="checkbox" name="linguagens" id="ling02" value="SQL server">SQL server
+        </label>
+
+        <label for="ling03">
+            <input type="checkbox" name="linguagens" id="ling03" value="PostgreSQL">PostgreSQL
+        </label>
+
+        <label for="ling04">
+            <input type="checkbox" name="linguagens" id="ling04" value="MongoDB">MongoDB
+        </label>
+
+        <label for="ling05">
+            <input type="checkbox" name="linguagens" id="ling05" value="DB2">DB2
+        </label>
+
+        </fieldset>
+        
+        <label for="coment">Conte um pouco mais da sua experiência :</label><br>
+
+        <textarea name="comentarios" id="coment" cols="100" rows="10" maxlength="300" ></textarea><br>
+
+        <input type="submit" value="concluído">
+
+    <style>
+        textarea {
+            resize:none;
+        }
+
+        textarea {
+            border:2px solid;
+        }
+    </style>
+
+        </form>
+
+
+
+
+
+
+
+</body>
+</html>

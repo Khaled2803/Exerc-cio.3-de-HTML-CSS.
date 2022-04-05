@@ -1,0 +1,25 @@
+
+body {
+    background-image:linear-gradient(45deg, Black, cyan);
+    margin-left: 250px;
+}
+
+h1 {
+    text-shadow:2px 2px 5px;
+}
+
+#nome {
+    border-radius: 18px;
+}
+
+#email {
+    border-radius: 18px;
+}
+
+form label, legend {
+    display: block;
+}
+
+input {
+    border-radius: 18px;
+}
